@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andy Gee - Software Architect / Programmer</title>
   <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
   <main>
     <header>
       <img src="i/avatar.jpg" alt="Avatar" class="avatar">
       <div class="header-content">
-        <h1>Hi 🖐<br />My name is Andy Gee</h1>
+        <h1>My name is Andy Gee</h1>
         <div class="subtitle">
-          UX/UI <span class="dot">•</span>
-          Front-end Developer <span class="dot">•</span>
-          All Things JavaScript <span class="dot">•</span>
-          Husband & Dad <span class="dot">•</span>
+          Full-stack Developer <span class="dot">•</span>
+          Software Architect <span class="dot">•</span>
+          Data Wrangler <span class="dot">•</span>
+          Husband &amp; Father <span class="dot">•</span>
           Dumaguete, Philippines <span role="img" aria-label="Philippines">🇵🇭</span>
         </div>
         <div class="contacts">
@@ -25,6 +27,12 @@
               <img src="i/logo_github.svg" alt="GitHub" />
             </span>
             <span>GitHub</span>
+          </a>
+          <a href="https://stackoverflow.com/users/499131/andy-gee" target="_blank" rel="noopener noreferrer">
+            <span class="icon">
+              <img src="i/logo_stack.svg" alt="Stack Overflow" />
+            </span>
+            <span>Stack Overflow</span>
           </a>
           <a href="https://profile.codersrank.io/user/andyg2" target="_blank" rel="noopener noreferrer">
             <span class="icon">
@@ -49,16 +57,16 @@
       </div>
     </header>
     <section>
-      <h2>My Coding Activity & Stats</h2>
-      <p class="branding">Powered by <a href="https://profile.codersrank.io/user/andyg2" target="_blank" rel="noopener noreferrer">CodersRank</a></p>
+      <h2>Recent Coding Activity & Stats</h2>
+      <p class="branding">Via <a href="https://profile.codersrank.io/user/andyg2" target="_blank" rel="noopener noreferrer">CodersRank</a></p>
       <codersrank-summary
         class="widget"
         username="andyg2"
         show-avatar="false"
         show-header="false"
         min-width="420"
-        branding="false"
-      ></codersrank-summary>
+        branding="false">
+      </codersrank-summary>
       <div class="widget activity-widget">
         <codersrank-activity
           username="andyg2"
@@ -67,49 +75,50 @@
           tooltip
           step="5"
           svg-width="1120"
-          branding="false"
-        ></codersrank-activity>
+          branding="false">
+        </codersrank-activity>
       </div>
-      
+
       <codersrank-skills-chart
         class="widget"
         username="andyg2"
         legend="false"
         tooltip
         labels
-        skills="JavaScript,CSS,Less,Vue,Svelte,TypeScript,CSS,HTML"
+        skills="PHP,SQL,Shell,TSQL,JavaScript,JSON,CSS,HTML"
         svg-width="1120"
         svg-height="400"
-        branding="false"
-      ></codersrank-skills-chart>
+        branding="false">
+      </codersrank-skills-chart>
     </section>
     <section>
       <h2>Recent Projects</h2>
-      <p>I am very passionate about building mobile and desktop web applications, user interfaces, and contributing to open-source community by creating great and popular open-source projects.</p>
+      <p>I am passionate about data and logical flow optimization and intuitive interfaces. I build from the data source to the interface, a fully bottom up approach.</p>
       <codersrank-portfolio
         class="widget"
         username="andyg2"
         grid
         company="false"
-        branding="false"
-      ></codersrank-portfolio>
+        branding="false">
+      </codersrank-portfolio>
     </section>
     <section>
       <h2>Work Experience & Education</h2>
+      <p>I've been a professional programmer for 25 years, it's more than a profession, it's an obsession.</p>
       <codersrank-work-experience
         class="widget"
         username="andyg2"
         logos
-        branding="false"
-      ></codersrank-work-experience>
+        branding="false">
+      </codersrank-work-experience>
       <codersrank-education
         class="widget"
         username="andyg2"
-        branding="false"
-      ></codersrank-education>
+        branding="false">
+      </codersrank-education>
     </section>
 
-    <footer>Copyright © 2020 - 2021 Andy Gee</footer>
+    <footer>Copyright © 1974 - 2021 Andy Gee</footer>
   </main>
 
   <script src="https://unpkg.com/@codersrank/summary/codersrank-summary.min.js"></script>
@@ -118,6 +127,7 @@
   <script src="https://unpkg.com/@codersrank/portfolio/codersrank-portfolio.min.js"></script>
   <script src="https://unpkg.com/@codersrank/work-experience/codersrank-work-experience.min.js"></script>
   <script src="https://unpkg.com/@codersrank/education/codersrank-education.min.js"></script>
-  
+
 </body>
+
 </html>
